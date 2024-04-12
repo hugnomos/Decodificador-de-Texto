@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <header class="topo">
+            <img src="./Assets/Frame 6.png" alt="Logo-alura">
+        </header>
+    <main>
+        <section class="ladoesquerdotxt">
+            <textarea class="texto1" id="texto" oninput="txtsimultaneo()">Digite seu texto</textarea>
+            <div class="botoes">
+                <h2 class="recomendacao"> <img src="./Assets/Group.png" alt="atencao">Apenas letras minúsculas e sem acento </h2>
+                <div class="cripdescrip">
+                    <button onclick="Criptografar()" class="Crip">Criptografar</button>
+                    <button onclick="Descriptografar()" class="descrip">Descriptografar</button>
+                </div>
+            </div>
+            </section>
+        <section class="ladodireito">
+            <a class="retangulo">
+                <img src="./Assets/High quality products 1 1.svg">
+                <h1 class="mensagem_nenhuma"> Nenhuma mensagem encontrada</h1>
+                <p class="mensagem_digite"> Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </a>
+        </section>
+    </main>
+</body>
+<script src="./app.js" defer></script>
+    <footer class="rodape">Desenvolvido por Hugo Souza</footer>
